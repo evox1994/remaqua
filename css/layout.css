@@ -297,16 +297,17 @@ button:hover {
 .header-info p {
     display: block;
     color: #ffffff;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.2;
 }
 .header-info p a {
     color: #ffffff;
+    font-weight: 700;
+    font-size: 14px;
 }
 .header-info p a.whatsapp-number {
     color: #01d076;
     text-transform: uppercase;
-    font-weight: 700;
 }
 
 .footer {
@@ -413,6 +414,7 @@ button:hover {
 }
 .cookie-btn:hover {
     cursor: pointer;
+    background-color: #dca932;
 }
 
 .button-text {

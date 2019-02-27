@@ -36,6 +36,9 @@
 	-ms-transition: all 0.3s;
 	transition: all 0.3s;
 }
+.b-1-btn:hover {
+	background-color: #dca932;
+}
 
 .b-2 .b-block {
 	padding-top: 80px;
@@ -292,6 +295,7 @@
 	padding: 19px 60px 19px 40px;
 	width: 100%;
 	background-color: #f7f7f7;
+	border: 1px solid #f7f7f7;
 	font-size: 18px;
 	color: #494a4d;
 	line-height: 1.2;
@@ -299,8 +303,7 @@
 }
 .form-wrap .select-area.active {
 	border-radius: 4px 4px 0 0;
-	/*background-color: #ffffff;
-	color: rgb(55, 71, 79);*/
+	background-color: #ffffff;
 }
 .form-wrap .select-area::before {
 	content: '';
@@ -335,7 +338,8 @@
 .form-wrap .select-drop {
 	display: none;
 	position: absolute;
-	background-color: #f7f7f7;
+	background-color: #ffffff;
+	border: 1px solid #f7f7f7;
 	top: 100%;
 	left: 0;
 	width: 100%;
@@ -399,6 +403,9 @@
 .form-wrap input:focus::-moz-placeholder          {color:transparent;}
 .form-wrap input:focus:-moz-placeholder           {color:transparent;}
 .form-wrap input:focus:-ms-input-placeholder      {color:transparent;}
+.form-wrap input:focus {
+	background-color: #ffffff;
+}
 .form-wrap button {
 	display: block;
 	box-sizing: border-box;
@@ -415,6 +422,9 @@
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
 	transition: all 0.3s;
+}
+.form-wrap button:hover {
+	background-color: #dca932;
 }
 
 
