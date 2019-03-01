@@ -297,7 +297,7 @@ button:hover {
 .header-info p {
     display: block;
     color: #ffffff;
-    font-size: 12px;
+    font-size: 10px;
     line-height: 1.2;
 }
 .header-info p a {
@@ -374,6 +374,7 @@ button:hover {
     background-color: #1a1a1a;
     bottom: 0;
     left: 0;
+    text-align: center;
 }
 .cookie.active {
     display: block;
@@ -506,6 +507,19 @@ button:hover {
     }
     .button-text {
         float: none !important;
+    }
+    .header-logo {
+        max-width: 120px;
+    }
+    .header-back {
+        display: block;
+        margin-left: auto;
+        padding-left: 15px;
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .header-nav {
+        display: none;
     }
     .footer-wrap {
         display: block;

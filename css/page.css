@@ -427,6 +427,38 @@
 	background-color: #dca932;
 }
 
+.whatsapp-btn {
+	display: none;
+	box-sizing: border-box;
+	max-width: 350px;
+	width: 100%;
+	margin: 0 auto;
+	border-radius: 4px;
+	background-color: #01d076;
+	color: #ffffff;
+	padding: 10px 20px 10px 95px;
+	position: relative;
+	font-size: 14px;
+	text-align: left;
+}
+.whatsapp-btn::before {
+	content: '';
+	display: block;
+	width: 32px;
+	height: 32px;
+	background-image: url('../i/wa-i.svg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	position: absolute;
+	left: 31px;
+	top: calc(50% - 16px);
+}
+.whatsapp-btn span {
+	font-weight: 500;
+	font-size: 18px;
+}
+
 
 
 
@@ -479,6 +511,9 @@
 		width: 100%;
 		margin-bottom: 30px;
 	}
+	.form-wrap {
+		display: none;
+	}
 	.form-wrap .select-area {
 		padding: 19px 40px 19px 20px;
 	}
@@ -494,6 +529,9 @@
 	.form-wrap button {
 		float: none !important;
 		margin: 0 auto;
+	}
+	.whatsapp-btn {
+		display: block;
 	}
 }
 @media screen and (max-width: 500px){
