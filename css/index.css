@@ -480,6 +480,9 @@
 	.b-1 h1 {
 		font-size: 30px;
 	}
+	.b-1-btn {
+		display: none;
+	}
 	.b-2-list li {
 		width: 100%;
 		margin-bottom: 30px;
